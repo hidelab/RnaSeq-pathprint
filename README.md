@@ -4,9 +4,9 @@ New pipeline for pathprinting RNA-seq data
 ## Status
 Operation | Status | Note
 --- | --- | ---
-Experiment download | `-` | -
-Experiment Fingerprinting | `-` | -
-Post-processing step 1 | `-` | -
+Experiment download | `Imperfect` | `Less experiments than expected (351) during run-time`
+Experiment Fingerprinting | `Complete` | -
+Post-processing step 1 | `Ongoing` | ``
 Post-processing step 2 | `-` | -
 Post-processing step 3 | `-` | -
 Metadata matrix creation | `-` | -
