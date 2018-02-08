@@ -6,7 +6,7 @@ Operation | Status | Note
 --- | --- | ---
 Experiment download | `Imperfect` | `Less experiments than expected (351) during run-time`
 Experiment Fingerprinting | `Complete` | -
-Post-processing step 1 | `Ongoing` | ``
+Post-processing step 1 | `Ongoing` | `runtime error`
 Post-processing step 2 | `-` | -
 Post-processing step 3 | `-` | -
 Metadata matrix creation | `-` | -
