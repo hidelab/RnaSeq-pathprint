@@ -38,3 +38,7 @@ Fingerprint matrix creation | `-` | -
 5. **constructing POE thresholds.R** : Obtains POE threshold values and creates *LINCS.fingerprint.matrix.RData* file.
 
 ## Notes
+
+1. We are using ensembl75 from BioMart for the ensembl-entrez ID mapping
+
+2. **gctx2fingerprint.R** is used (as in LINCS) because the data structure is identical after the preprocessing step in **rna_pathprint_download.R**
