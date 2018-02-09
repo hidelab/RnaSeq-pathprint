@@ -27,13 +27,13 @@ Fingerprint matrix creation | `-` | -
 
 ### Post-processing
 
-1. **Fingerprint_post_processing_step1_lincs.R** :  Creates the *sq_.frame.xxxx-xx-xx.RData* file (SCE dataframe) and the *platform.frame.xxxx-xx-xx.RData* file (platform dataframe). It also creates the *sq_.pathway.SCE.x.RData* files for each pathway.
+1. **Fingerprint_post_processing_step1_rna.R** :  Creates the *sq_.frame.xxxx-xx-xx.RData* file (SCE dataframe) and the *platform.frame.xxxx-xx-xx.RData* file (platform dataframe). It also creates the *sq_.pathway.SCE.x.RData* files for each pathway.
 
-2. **Fingerprint_post_processing_step2_lincs.R** :  Creates the POE (probability of expression) file for each pathway. 
+2. **Fingerprint_post_processing_step2_rna.R** :  Creates the POE (probability of expression) file for each pathway. 
 
-3. **Fingerprint_post_processing_step3_lincs.R** :  Creates the *sq_.matrix.xxxx-xx-xx.RData* POE matrix file (one file for all pathways). 
+3. **Fingerprint_post_processing_step3_rna.R** :  Creates the *sq_.matrix.xxxx-xx-xx.RData* POE matrix file (one file for all pathways). 
 
-4. **matrix_metadata_lincs.R** : Creates the *LINCS.metadata.matrix.RData* file.
+4. **matrix_metadata_rna.R** : Creates the *LINCS.metadata.matrix.RData* file.
  
 5. **constructing POE thresholds.R** : Obtains POE threshold values and creates *LINCS.fingerprint.matrix.RData* file.
 
