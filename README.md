@@ -4,7 +4,7 @@ New pipeline for pathprinting RNA-seq data
 ## Status
 Operation | Status | Note
 --- | --- | ---
-Experiment download | `Complete` | `Less experiments than expected (351) during run-time`
+Experiment download | `Complete` | `Less experiments than expected (418) during run-time`
 Experiment Fingerprinting | `Complete` | -
 Post-processing step 1 | `Ongoing` | `runtime error`
 Post-processing step 2 | `Ready` | -
