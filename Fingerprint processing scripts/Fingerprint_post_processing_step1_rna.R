@@ -63,7 +63,8 @@ library(pathprint)
 
 # create SCE dataframe
 print(paste("saving SCE dataframe with timestamp ", Sys.Date(), sep = " "))
-gsub(header, "", files)
+a<-gsub(header, "", files)
+length(a)
 names(SCE)<-gsub(header, "", files)
 SCE.frame<-t(as.data.frame(SCE))
 colnames(SCE.frame)<-names(get(genesets[[1]]))
