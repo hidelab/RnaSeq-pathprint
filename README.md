@@ -6,10 +6,10 @@ Operation | Status | Note
 --- | --- | ---
 Experiment download | `Complete` | `Less experiments than expected (418) during run-time`
 Experiment Fingerprinting | `Complete` | -
-Post-processing step 1 | `Ongoing` | `runtime error`
-Post-processing step 2 | `Ready` | -
-Post-processing step 3 | `-` | -
-Metadata matrix creation | `-` | -
+Post-processing step 1 | `Complete` | -
+Post-processing step 2 | `Complete` | -
+Post-processing step 3 | `Complete` | -
+Metadata matrix creation | `Modifying` | -
 Fingerprint matrix creation | `-` | -
 
 ## Scripts
