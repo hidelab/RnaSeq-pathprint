@@ -21,7 +21,7 @@ Fingerprint matrix creation | `-` | -
 
 3. **rna_parallel_x.R** : Parallel scripts(14). Each initiates the experiment-fingerprinting process of multiple experiments by running the *gctx2fingerprint.R* script.
 
-4. **gctx2fingerprint.R** : Script that accepts a experiment name, loads it's matrix and produces the experiment fingerprints. It's a merge of geo2fingerprint.R and exprs2fingerprint.R. It utilizes *custom.single.chip.enrichment.R* to produce the experiment fingerprints.
+4. **gtex2fingerprint.R** : Script that accepts a experiment name, loads it's matrix and produces the experiment fingerprints. It's a merge of geo2fingerprint.R and exprs2fingerprint.R. It utilizes *custom.single.chip.enrichment.R* to produce the experiment fingerprints.
 
 5. **custom.single.chip.enrichment.R** : Slightly tweaked version of *single.chip.enrichment.R* that omits some unrelated parameters.
 
@@ -41,4 +41,4 @@ Fingerprint matrix creation | `-` | -
 
 1. We are using ensembl75 from BioMart for the ensembl-entrez ID mapping
 
-2. **gctx2fingerprint.R** is used (as in LINCS) because the data structure is identical after the preprocessing step in **rna_pathprint_download.R**
+2. **gtex2fingerprint.R** is used because the data structure is identical after the preprocessing step in **rna_pathprint_download.R**
