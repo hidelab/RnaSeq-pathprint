@@ -9,7 +9,7 @@ Experiment Fingerprinting | `Complete` | -
 Post-processing step 1 | `Complete` | -
 Post-processing step 2 | `Complete` | -
 Post-processing step 3 | `Complete` | -
-Metadata matrix creation | `Modifying` | -
+Metadata matrix creation | `Complete` | -
 Fingerprint matrix creation | `-` | -
 
 ## Scripts
